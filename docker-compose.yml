@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    java:        
+        image: dreamwayjgs/zulu-kotlin
+        volumes:
+            - .:/workspace:cached             
+        tty: true
